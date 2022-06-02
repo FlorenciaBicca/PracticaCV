@@ -1,43 +1,70 @@
 .center {
     text-align: center;
-    background-color: #e6e6e6;
-    width: 100px;
-    height: 146.37px;
+    background-color: #474742;
+    width: 200px;
+    height: 200px;
     left: 670px;
     top: 20.91px;
     position: absolute;
 }
 
-h1 {
+header {
+    background-image: url(../img/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+nav {
     text-align: center;
-    background-color: #c4c4c4;
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     letter-spacing: 10px;
     font-feature-settings: 'cpsp' on;
-    color: #005677;
+    color: white;
+}
+
+
+
+body {
+    background-color: #f5f5f2;
+}
+
+h1 {
+    text-align: center;
+    background-color: #474742;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 10px;
+    font-feature-settings: 'cpsp' on;
+    color: white;
 }
 
 h2 {
     background-color: #c4c4c4;
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 84.69%;
     font-feature-settings: 'cpsp' on;
-    color: #005677;
+    color: black;
 }
 
 .negrita {
-    font-family: 'Times New Roman';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 84.69%;
+} 
+
+.fuentenueva { 
+    font-family: 'Open Sans', sans-serif;
+  
 }
 
 .cursiva {
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
 }
 
@@ -51,13 +78,20 @@ h2 {
     margin: 0;
 }
 
+.iconcolor {
+
+}
+
 footer {
     color: white;
     text-align: center;
-    background-color: #005677;
-    font-family: 'Times New Roman';
+    background-color: #474742;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 84.69%;
 }
+
+/* características de la fuente de google fonts 
+font-family: 'Open Sans', sans-serif; cómo era para cambiarla toda de una?*/
